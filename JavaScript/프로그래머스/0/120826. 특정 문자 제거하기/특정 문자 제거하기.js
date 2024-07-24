@@ -5,12 +5,10 @@ function solution(my_string, letter) {
     for (let i = 0; i < my_string.length; i++){
         string = my_string.substring(i, i+1)
         if(string != letter){
-            answer = answer + string
-            
+            answer = answer + string  
         }
         else
             string.replace('')
-            continue
     }
     return answer;
 }
